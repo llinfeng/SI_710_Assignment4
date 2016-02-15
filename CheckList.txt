@@ -1,0 +1,61 @@
+
+Major sections that constitute a experiment-design
+
+Market mechanism (including communication setup); 
+Control vs Treatment group (Rosina)
+Hypothesis and testing [Tangren]
+Network elicitation method [Linfeng]
+
+
+
+Motivation
+The purpose of this study is to see how the presence of social networks affects trading patterns and, by extension, the efficiency of decentralized markets.
+
+Hypotheses
+• Hypothesis 1: Subjects will be more likely to trade with individuals who are in their social network. 
+• Hypothesis 2: Bargaining costs will be lower when access to social networks is available. ( 
+• Hypothesis 3: Efficiency will be higher in homogeneous good markets when networks are available. This is expected to be due to lower trading costs.  
+• Hypothesis 4: Price dispersion will be greater in markets where social networks are available. In other words, the Law of One Price is less likely to hold. 
+• Hypothesis 5: Surplus will be split more equally in markets with social networks.
+• Hypothesis 6: Friends with stronger “ties” will trade more items than friends with weak “ties”, if anything at all.
+
+Social Network Implementation
+Real world, existing friendships
+
+Experiment Procedure
+Randomly assign subjects into two groups, treatment and control. (Please refer to section “Subjects, Control and Treatment”)
+Eliciate network of treatment group (Please refer to section “Network Elicitation Method”)
+Computer based trading: treatment with real ID; control with changing fake ID. Subject can post unbinding offers publicly but they can negotiate (private chatting) as well. (Please refer to section “Market mechanism”)
+At the end of each round, subject will observe the average price or distribution(we can discuss which one is better) (just like “truecar.com”)
+Subject will be reward the surplus they earned in the experiment.
+
+
+Subjects, Control and Treatment
+
+The experiment will be run in a computer-based trading setting among a class of undergraduate students, such as ECON 102. The main advantage of the selected group of subjects is the easy access and the fact that we would not need parental consent. This course is chosen since it is still a mass course and provides students with enough time to establish a network in college. Hence, the measured social network will be the existing friendship network among students.
+
+In order to measure the importance of social networks on decentralized competitive markets and the choice of trading partners, subjects are randomly selected from the course and assigned into two groups of 25 individuals. The size of each group is selected to make the elicitation mechanism possible. (if not it is too long)
+
+In the treatment group, students are identified with their real ID’s which implies that the subjects are able to be recognized by trading partners with whom they have a closer social relationship. After the trading experiment is run, the social network of the treatment group is going to be elicited. In the control group, subjects are not identified and are randomly assign with a fake ID. Note that in both groups, the market design is identical except from the fact that in one group subjects are identifiable whereas in the other they are not.
+
+The choice of this methodology allows us to identify how the social network influences the trading patterns among subjects. We expect that subjects are more likely to trade with individuals who belong to their social network. 
+.
+
+Network Elicitation Method (NetworkElicitation.tex)
+(Check out the ShareLaTeX document, draft stored in a separate *.tex file named as ~\SI_710_Assignment4\NetworkElicitation.tex)
+Please either comment to that document, or comment here. THX!
+
+Rosina: I remember that Alan’s questions were more related to “have you visited her house in the last week?” “do you admire her?” and things like that, but I lost the questionnaire. I wonder if we want to include questions like that or not, maybe those questions were more appropriate since the experiment involved children. 
+
+Market Mechanism
+
+We are focusing on a computer based double auction environment. The ask and bid offers are going to be posted in a publicly available fashion. In contrast to the transparency of the prices, agents will be able to privately chat and negotiate. The transactions will be realized once both parties agree on it. We will let sellers to have multiple units, whereas buyers are looking for one unit of good to purchase. The parties will be charged a small amount that will be determined with respect to the round of negotiations they make through private chatting. 
+
+Testing
+• Hypothesis 1:  Utilizing the elicited network, compute the frequency to within network transaction of treatment group, compare it with no network effect probability.
+• Hypothesis 2:  Compute means and standard deviations of bargaining time of control group, treatment group ( a.total transactions; b.transactions within network; c. transactions outside of network), then calucate p value to check statistic significance.
+• Hypothesis 3:  Compute total surplus achieved in each round in both control and treatment, then calculate the statistic difference of these two.
+• Hypothesis 4: Compute means and standard deviations of price dispersion in each round of control group, treatment group ( a.total transactions; b.transactions within network; c. transactions outside of network), then calucate p value to check statistic significance.
+• Hypothesis 5: Compute means and standard deviations of surplus splitting ratio (sell surplus/buyer surplus) in each round of control group, treatment group ( a.total transactions; b.transactions within network; c. transactions outside of network), then calucate p value to check statistic significance.
+
+
