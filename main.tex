@@ -9,6 +9,7 @@
 \usepackage{natbib}
 \usepackage{graphicx}
 \usepackage{enumerate}
+\usepackage[colorlinks,linkcolor=blue,bookmarksdepth=paragraph]{hyperref}
 
 \begin{document}
 \maketitle
@@ -16,14 +17,19 @@
 %\input{notes_pre_Feb13}
 
 \section{Experiment Design}
-Social Network Implementation
-Real world, existing friendships
+\subsection{Motivation}
+The purpose of this study is to see how the presence of social networks affects
+trading patterns and, by extension, the efficiency of decentralized markets.
 
-Experiment Procedure
+
+\subsubsection{Social Network Implementation}
+Real world, existing friendships.
+
+\subsection{Experiment Procedure}
 \begin{enumerate}
     \item Randomly assign subjects into two groups, treatment and control.
         (Please refer to section ``Subjects, Control and Treatment'')
-    \item Eliciate network of treatment group (Please refer to section ``Network
+    \item Elicit network of treatment group (Please refer to section ``Network
         Elicitation Method'')
     \item Computer based trading: treatment with real ID; control with changing
         fake ID. Subject can post unbinding offers publicly but they can
@@ -35,7 +41,7 @@ Experiment Procedure
     \item Subject will be reward the surplus they earned in the experiment.
 \end{enumerate}
 
-\subsection{``Control vs. Treatment group''}
+\subsubsection{Subjects, Control and Treatment}
 The experiment will be run in a computer-based trading setting among a class of
 undergraduate students, such as ECON 102. The main advantage of the selected
 group of subjects is the easy access and the fact that we would not need
@@ -62,43 +68,62 @@ influences the trading patterns among subjects. We expect that subjects are more
 likely to trade with individuals who belong to their social network.
 
 \subsection{Market Mechanism}
+We are focusing on a computer based double auction environment. The ask and bid
+offers are going to be posted in a publicly available fashion. In contrast to
+the transparency of the prices, agents will be able to privately chat and
+negotiate. The transactions will be realized once both parties agree on it. We
+will let sellers to have multiple units, whereas buyers are looking for one unit
+of good to purchase. The parties will be charged a small amount that will be
+determined with respect to the round of negotiations they make through private
+chatting.
 
-We are focusing on a computer based double auction environment. The ask and bid offers are going to be posted in a publicly available fashion. In contrast to the transparency of the prices, agents will be able to privately chat and negotiate. The transactions will be realized once both parties agree on it. We will let sellers to have multiple units, whereas buyers are looking for one unit of good to purchase. The parties will be charged a small amount that will be determined with respect to the round of negotiations they make through private chatting. 
+\subsection{Network Elicitation Method}
+\input{NetworkElicitation}
+
 
 \subsection{Hypothesis and Testing}
-\subsubsection{Motivation}
-
-The purpose of this study is to see how the presence of social networks affects
-trading patterns and, by extension, the efficiency of decentralized markets.
-
 \subsubsection{Hypotheses}
-
 \begin{enumerate}[{Hypothesis} 1]
     \item Subjects will be more likely to trade with individuals who are in
         their social network.
-
     \item Bargaining costs will be lower when access to social networks is
         available.
-
     \item Efficiency will be higher in homogeneous good markets when networks
         are available. This is expected to be due to lower trading costs.
-
     \item Price dispersion will be greater in markets where social networks are
         available. In other words, the Law of One Price is less likely to hold.
-
     \item Surplus will be split more equally in markets with social networks.
-
     \item Friends with stronger ``ties'' will trade more items than friends with
         weak ``ties'', if anything at all.
+\end{enumerate}
+
+\subsubsection{Testing Hypothesis}
+\begin{enumerate}[{Hypothesis} 1]
+    \item  Utilizing the elicited network, compute the frequency to within network
+        transaction of treatment group, compare it with no network effect
+        probability.
+    \item  Compute means and standard deviations of bargaining time of control
+        group, treatment group ( a.total transactions; b.transactions within
+        network; c. transactions outside of network), then calculate $p$-value to check
+        statistic significance.
+    \item  Compute total surplus achieved in each round in both control and
+        treatment, then calculate the statistic difference of these two.
+    \item Compute means and standard deviations of price dispersion in each round of
+        control group, treatment group ( a.total transactions; b.transactions within
+        network; c. transactions outside of network), then calculate $p$-value to check
+        statistic significance.
+    \item Compute means and standard deviations of surplus splitting ratio (sell
+            surplus/buyer surplus) in each round of control group, treatment group (
+            a.total transactions; b.transactions within network; c. transactions outside of
+        network), then calculate $p$-value to check statistic significance.
 \end{enumerate}
 
 
 
 
 
-\subsection{Network Elicitation Method}
 
-\input{NetworkElicitation}
+
 
 \bibliographystyle{plain}
 \bibliography{references}
