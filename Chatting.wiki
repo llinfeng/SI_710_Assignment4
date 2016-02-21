@@ -1,0 +1,47 @@
+=2016-02-21=
+
+== Treatments == 
+
+== Summary: 2016-02-21 13:23:05 ==
+
+The ID problem summary: 
+1. If we are only interested in network effect, treatment with only names should
+   be fine. 
+2. If we wants to know more about photo effect, we can use a factorial design.
+
+Nevertheless, we can go with name-only as the single treatment;
+
+
+=== Factorial design (give up on this) : 2016-02-21 13:16:11 ===
+
+* Names;
+* Photos
+* (Names with Photo)
+
+* Friends;
+* Strangers
+
+== Cost of chatting/negotiation ==
+
+We may well leave the chatting channel "free" for users in the experiment, and
+apply different accounting scheme in the analysis phase. To be more precise, we
+may then measure the cost in two ways: 1) accounting for all conversations, line
+by line; or 2) truncate all the "effective" negotiations before the final deal
+is sealed.
+
+= Simplest Case =
+
+Treatment: name among friends;
+
+Market capacity: each buyer and seller has only one 
+
+= Consider the multiple-item trading scheme =
+
+== Theory ==
+
+Use the number of sold-items as a proxy of "ranking of tie-strength"?
+
+In order to see such trading patterns, may need to pay for surpluses in a
+deterministic way.
+
+Multiple-item trading in a probabilistically, 
