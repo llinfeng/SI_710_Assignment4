@@ -29,13 +29,18 @@ may then measure the cost in two ways: 1) accounting for all conversations, line
 by line; or 2) truncate all the "effective" negotiations before the final deal
 is sealed.
 
-= Simplest Case =
+==> Solution: to end the chat right after a deal is sealed by two parties. Then,
+the time will serve as a good proxy of cost.
+
+= (Picked) Simplest Case =
 
 Treatment: name among friends;
 
 Market capacity: each buyer and seller has only one 
 
-= Consider the multiple-item trading scheme =
+
+
+= (Not pursued) Consider the multiple-item trading scheme =
 
 == Theory ==
 
@@ -44,4 +49,5 @@ Use the number of sold-items as a proxy of "ranking of tie-strength"?
 In order to see such trading patterns, may need to pay for surpluses in a
 deterministic way.
 
-Multiple-item trading in a probabilistically, 
+Multiple-item trading in a probabilistically way, may convolute the picture with
+further requirement to capture risk-preferences of individuals.
